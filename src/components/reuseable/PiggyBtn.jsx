@@ -3,7 +3,8 @@ import React from 'react'
 const PiggyBtn = (props) => {
   return (
     <div>
-        <button>
+        <button
+        className={`${props.textTransform} ${props.btnBg} ${props.textColor}`}>
             {props.title}
         </button>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import download from "../assets/images/download.svg";
 import hamburger from "../assets/images/hamburger.png";
+import PiggyBtn from '../components/reuseable/piggyBtn';
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
       </div>
       <div>
         <PiggyBtn title ="sign in"/>
-         <PiggyBtn  className ="bg-black text-white"   title ="create free accounts"/>
+         <PiggyBtn textTransform="uppercase" btnBg="bg-black" textColor="text-white" title ="create free accounts"/>
       </div>
     </div>
   )
