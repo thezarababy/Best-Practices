@@ -15,10 +15,11 @@ const Header = () => {
         <a href="">Stories</a>
         <a href="">Resources</a>
 
-        <div>
-            <button>Sign in</button>
-            <button>Create Free account</button>
-        </div>
+        
+      </div>
+      <div>
+        <PiggyBtn title ="sign in"/>
+         <PiggyBtn  className ="bg-black text-white"   title ="create free accounts"/>
       </div>
     </div>
   )
