@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-tablet:800px;
+  --breakpoint-mobile:500px;
+}
+
 
 
 body{
