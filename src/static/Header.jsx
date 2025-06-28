@@ -28,8 +28,8 @@ const Header = () => {
           
           
               <div className='flex items-center max-tablet:hidden'>
-            <PiggyBtn title ="Sign in"  margin ="mr-6" border = "border border-black" radius="rounded-xl" padding= "py-4 px-4" fontSize="text-medium"/>
-            <PiggyBtn  textTransform="uppercase" btnBg="bg-black" textColor="text-white" padding= "py-4 px-6" radius ="rounded-xl" title ="create free accounts"/>
+            <PiggyBtn title ="Sign in"  margin ="mr-6" border = "border border-black" radius="rounded-xl" padding= "py-4 px-4" fontSize="text-sm"/>
+            <PiggyBtn  textTransform="uppercase" btnBg="bg-black" textColor="text-white" padding= "py-4 px-6" radius ="rounded-xl" title ="create free accounts" fontSize="text-sm" className="font-semibold"/>
           </div>
           </nav>
           
