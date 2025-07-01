@@ -5,7 +5,7 @@ import PiggyBtn from "../components/reuseable/PiggyBtn";
 
 const Header = () => {
   return (
-    <div className='flex  justify-between px-7 py-6'>
+    <div className='flex  justify-between px-7 py-6 max-tablet:bg-red-600'>
       <div className='flex justify-between items-center'>
        <img src={download} alt="logo" />
       <img src={hamburger} alt=""  className='h-15 hidden' />
