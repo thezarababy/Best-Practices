@@ -4,7 +4,7 @@ const PiggyBtn = (props) => {
   return (
     <div>
         <button
-        className={`${props.textTransform} ${props.btnBg} ${props.textColor} ${props.padding} ${props.radius} ${props.margin} ${props.border}`}>
+        className={`${props.textTransform} ${props.btnBg} ${props.textColor} ${props.padding} ${props.radius} ${props.margin} ${props.border} ${props.fontSize}`}>
             {props.title}
         </button>
     </div>
